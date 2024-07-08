@@ -1,0 +1,8 @@
+public class MiPayRunner{
+	public static void main(String []args){
+	MiPay.details("swati");
+	MiPay.details(78564);
+	MiPay.details(84930678478L);
+	MiPay.details(true);
+	}
+}
