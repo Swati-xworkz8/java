@@ -1,0 +1,14 @@
+public class Chairs{
+static String name ="wood chair";
+static int noOfChairs=8;
+static String color ="red";
+
+public static void main(int length){
+double price =100.5;
+boolean overWeight=false;
+float weight=45.7f
+Sysytem.out.println("chair prince:"+price); 
+Sysytem.out.println("chair is overWeight:"+overWeight);
+Sysytem.out.println("chair's weight:"+weight);
+}
+}

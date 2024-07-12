@@ -3,9 +3,8 @@ public class Food{
 	int price=10;
 	for(int i=0;i<quality.length;i++){
 	int total=price*quality[i];
-	//System.out.println("price:"+price+" "+"quality:"+quality[i]+" "+"total:"+total);
-	}
 	System.out.println("price:"+price+" "+"quality:"+quality[i]+" "+"total:"+total);
+	}
 	return true;
 	}
 	public static boolean food(String[] foodItems){
