@@ -1,0 +1,23 @@
+public class ScootyRunner{
+public static void main(String []args){
+Scooty scooty=new Scooty();
+System.out.println("scooty color is red");
+
+Scooty scooty1=new Scooty("pleasure",5,'P',7.8,20.3f,true,(byte)9);
+
+scooty1.ride();
+scooty1.ride1("pleasure");
+String name=scooty1.ride2();
+System.out.println(name);
+
+boolean value=scooty1.ride3(7);
+System.out.println(value);
+
+}
+}
+
+
+
+
+
+
